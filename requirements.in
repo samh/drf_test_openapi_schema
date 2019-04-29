@@ -1,0 +1,4 @@
+Django<2.1
+
+# Currently installing DRF manually from local checkout
+#-e https://github.com/encode/django-rest-framework/archive/openapi-schema-generation.zip
