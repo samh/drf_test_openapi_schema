@@ -4,5 +4,5 @@
 #
 #    pip-compile 
 #
-django==2.0.13
+django==1.11.20
 pytz==2019.1              # via django

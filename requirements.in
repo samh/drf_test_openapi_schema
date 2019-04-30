@@ -1,4 +1,5 @@
-Django<2.1
+# Currently using 1.11 LTS in production
+Django<2.0
 
 # Currently installing DRF manually from local checkout
 #-e https://github.com/encode/django-rest-framework/archive/openapi-schema-generation.zip
