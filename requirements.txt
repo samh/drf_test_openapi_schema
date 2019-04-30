@@ -4,5 +4,17 @@
 #
 #    pip-compile 
 #
+certifi==2019.3.9         # via requests
+chardet==3.0.4            # via requests
+coreapi==2.3.3
+coreschema==0.0.4         # via coreapi
 django==1.11.20
+idna==2.8                 # via requests
+itypes==1.1.0             # via coreapi
+jinja2==2.10.1            # via coreschema
+markupsafe==1.1.1         # via jinja2
 pytz==2019.1              # via django
+pyyaml==5.1
+requests==2.21.0          # via coreapi
+uritemplate==3.0.0        # via coreapi
+urllib3==1.24.2           # via requests
