@@ -4,17 +4,20 @@
 #
 #    pip-compile 
 #
+apistar==0.7.2
 certifi==2019.3.9         # via requests
 chardet==3.0.4            # via requests
+click==7.0                # via apistar
 coreapi==2.3.3
 coreschema==0.0.4         # via coreapi
 django==1.11.20
 idna==2.8                 # via requests
 itypes==1.1.0             # via coreapi
-jinja2==2.10.1            # via coreschema
+jinja2==2.10.1            # via apistar, coreschema
 markupsafe==1.1.1         # via jinja2
 pytz==2019.1              # via django
 pyyaml==5.1
-requests==2.21.0          # via coreapi
+requests==2.21.0          # via apistar, coreapi
+typesystem==0.2.2         # via apistar
 uritemplate==3.0.0        # via coreapi
 urllib3==1.24.2           # via requests

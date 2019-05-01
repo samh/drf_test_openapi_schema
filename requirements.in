@@ -6,5 +6,7 @@ coreapi
 # AssertionError: Using OpenAPIRenderer, but `pyyaml` is not installed.
 pyyaml
 
+apistar
+
 # Currently installing DRF manually from local checkout
 #-e https://github.com/encode/django-rest-framework/archive/openapi-schema-generation.zip
